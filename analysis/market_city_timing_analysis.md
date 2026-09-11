@@ -22,11 +22,41 @@ Hamburg is the best challenger/second test: it has the highest observed city-lev
 
 See the standalone [city comparison](city_comparison.md) for the full side-by-side table and decision interpretation.
 
+#### Visual city comparison
+
+The charts below are embedded in the main analysis so the market and city evidence is visible in one place.
+
+```mermaid
+xychart-beta
+    title "Illustrative 2026 city opportunity (€m)"
+    x-axis [Berlin, Munich, Hamburg, Cologne, Frankfurt]
+    y-axis "€m" 0 --> 500
+    bar [458.6, 382.2, 254.8, 229.3, 203.8]
+```
+
+```mermaid
+xychart-beta
+    title "Mean LUMEN purchase intent by city (/10)"
+    x-axis [Berlin, Munich, Hamburg, Cologne, Frankfurt]
+    y-axis "Intent" 0 --> 10
+    bar [7.40, 7.30, 7.52, 7.04, 7.18]
+```
+
 ### Seasonality and weather
 
 - `data/seasonality_and_weather.csv` shows demand below the annual baseline in winter: **January 78 at 2°C**, **February 80 at 3°C**, and **March 88 at 7°C**.
 - Demand rises through spring: **April 98 at 11°C**, **May 118 at 15°C**, and **June 132 at 18°C**. It peaks in **July at 138 and 19°C**, then remains strong in **August at 128 and 19°C** before falling to **104 in September**.
 - May is therefore a calculated timing compromise: **20 index points above April and 14.5% below the July peak**, while creating a meaningful pre-peak learning window. The 15°C average is a contextual weather signal, not causal proof.
+
+#### Visual launch-timing signal
+
+```mermaid
+xychart-beta
+    title "Monthly demand seasonality index"
+    x-axis [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+    y-axis "Seasonality index" 0 --> 150
+    line [78, 80, 88, 98, 118, 132, 138, 128, 104, 90, 82, 84]
+```
 
 ### Competitor promotion patterns
 
