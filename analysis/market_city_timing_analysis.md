@@ -48,6 +48,18 @@ The charts below are embedded in the main analysis so the market and city eviden
 
 ## 3. Recommendation
 
+### City choices at a glance
+
+> **FIRST LAUNCH — BERLIN**
+>
+> **CHALLENGER TEST — HAMBURG**
+>
+> **NEXT EXPANSION OPTION — MUNICH**
+>
+> **NOT SELECTED FOR PHASE 1 — COLOGNE AND FRANKFURT**
+
+This is a staged choice, not a recommendation to launch in all cities at once. Berlin is the first market, Hamburg is the comparison market used to validate customer demand, and Munich is reserved for a later expansion decision because of its scale and assumed growth.
+
 1. **City:** Start in **Berlin**, focused on urban retail/grocery locations and a measurable DTC support layer. Use a geographically bounded pilot so repeat, rate of sale, and promotion response can be compared with Hamburg.
 2. **Timing:** Target **May 2027** for the broad pilot; seed retail and awareness in late April. This captures the spring demand inflection before the July maximum and avoids the competitor promotion months observed in the supplied history. The year is a planning assumption because the seasonality file has months but no launch calendar.
 3. **Test design before scaling:** Run Berlin as the primary cell and Hamburg as a matched challenger. Track weekly distribution, rate of sale per active store, repeat purchase, DTC conversion, CAC/payback, and net contribution after promotions. Hold out comparable locations or audiences where feasible.
