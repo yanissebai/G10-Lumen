@@ -29,24 +29,6 @@ The charts below are embedded in the main analysis so the market and city eviden
 ![Illustrative 2026 city opportunity](city_opportunity.svg)
 ![Mean LUMEN purchase intent by city](city_intent.svg)
 
-```mermaid
-%%{init: {'themeVariables': {'xyChart': {'plotColorPalette': ['#1f4e79']}}}}%%
-xychart-beta
-    title "Illustrative 2026 city opportunity (€m)"
-    x-axis [Berlin, Munich, Hamburg, Cologne, Frankfurt]
-    y-axis "€m" 0 --> 500
-    bar [458.6, 382.2, 254.8, 229.3, 203.8]
-```
-
-```mermaid
-%%{init: {'themeVariables': {'xyChart': {'plotColorPalette': ['#c55a11']}}}}%%
-xychart-beta
-    title "Mean LUMEN purchase intent by city (/10)"
-    x-axis [Berlin, Munich, Hamburg, Cologne, Frankfurt]
-    y-axis "Intent" 0 --> 10
-    bar [7.40, 7.30, 7.52, 7.04, 7.18]
-```
-
 ### Seasonality and weather
 
 - `data/seasonality_and_weather.csv` shows demand below the annual baseline in winter: **January 78 at 2°C**, **February 80 at 3°C**, and **March 88 at 7°C**.
