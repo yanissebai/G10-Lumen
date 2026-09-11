@@ -26,6 +26,9 @@ See the standalone [city comparison](city_comparison.md) for the full side-by-si
 
 The charts below are embedded in the main analysis so the market and city evidence is visible in one place.
 
+![Illustrative 2026 city opportunity](city_opportunity.svg)
+![Mean LUMEN purchase intent by city](city_intent.svg)
+
 ```mermaid
 %%{init: {'themeVariables': {'xyChart': {'plotColorPalette': ['#1f4e79']}}}}%%
 xychart-beta
@@ -51,6 +54,8 @@ xychart-beta
 - May is therefore a calculated timing compromise: **20 index points above April and 14.5% below the July peak**, while creating a meaningful pre-peak learning window. The 15°C average is a contextual weather signal, not causal proof.
 
 #### Visual launch-timing signal
+
+![Monthly demand seasonality index](seasonality.svg)
 
 ```mermaid
 %%{init: {'themeVariables': {'xyChart': {'plotColorPalette': ['#1f4e79']}}}}%%

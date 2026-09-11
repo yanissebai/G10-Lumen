@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 390" role="img" aria-labelledby="title desc">
+<title id="title">Illustrative 2026 city opportunity</title><desc id="desc">Berlin 458.6 million euros, Munich 382.2, Hamburg 254.8, Cologne 229.3, Frankfurt 203.8.</desc>
+<rect width="760" height="390" fill="#ffffff"/><text x="32" y="35" font-family="Arial" font-size="22" font-weight="bold" fill="#17365d">Illustrative 2026 city opportunity (€m)</text>
+<g font-family="Arial" font-size="15" fill="#17365d"><text x="32" y="88">Berlin</text><text x="32" y="142">Munich</text><text x="32" y="196">Hamburg</text><text x="32" y="250">Cologne</text><text x="32" y="304">Frankfurt</text></g>
+<g fill="#17365d"><rect x="125" y="68" width="550" height="28"/><rect x="125" y="122" width="459" height="28"/><rect x="125" y="176" width="306" height="28"/><rect x="125" y="230" width="275" height="28"/><rect x="125" y="284" width="245" height="28"/></g>
+<g font-family="Arial" font-size="15" font-weight="bold" fill="#17365d"><text x="684" y="89">458.6</text><text x="593" y="143">382.2</text><text x="440" y="197">254.8</text><text x="409" y="251">229.3</text><text x="379" y="305">203.8</text></g>
+<text x="125" y="350" font-family="Arial" font-size="13" fill="#555">Calculated directional opportunity; not observed city sales</text></svg>
