@@ -22,6 +22,12 @@ understood thank you, we can start working now
 
 Result: Ready to begin work on the repository.
 
+### Entry 6 — 2026-09-11
+
+everything discussed and made here please refer to branch Santiago from now on and not the main
+
+Result: Working branch renamed to Santiago.
+
 ### Entry 5 — 2026-09-11
 
 Follow the repository instructions. Work only in my fork or assigned branch, not directly in the template repository. Do not ask me to design the analysis or decide what to do: execute the task below, inspect the relevant CSV files, and produce a complete, evidence-based deliverable.
