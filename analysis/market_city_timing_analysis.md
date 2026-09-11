@@ -52,6 +52,8 @@ The charts below are embedded in the main analysis so the market and city eviden
 2. **Timing:** Target **May 2027** for the broad pilot; seed retail and awareness in late April. This captures the spring demand inflection before the July maximum and avoids the competitor promotion months observed in the supplied history. The year is a planning assumption because the seasonality file has months but no launch calendar.
 3. **Test design before scaling:** Run Berlin as the primary cell and Hamburg as a matched challenger. Track weekly distribution, rate of sale per active store, repeat purchase, DTC conversion, CAC/payback, and net contribution after promotions. Hold out comparable locations or audiences where feasible.
 
+**Why Hamburg rather than Munich as the challenger?** Hamburg is the more useful demand-validation challenger: it has the highest mean purchase intent (**7.52/10**), the highest high-intent share (**45.8%**), and higher mean monthly beverage spend (**€20.27**) than Munich (**7.30/10**, **35.1%**, and **€19.89**, respectively) in `data/customer_survey.csv`. Munich remains an important second-wave option because its illustrative opportunity (**€382.2m**) and assumed regional CAGR (**9%**) exceed Hamburg's (**€254.8m** and **7%**) in `data/market_context.csv`. In short, Hamburg is chosen to test customer pull; Munich is retained as the scale-and-growth expansion candidate.
+
 ## 4. Assumptions, limitations, and risks
 
 - **Observed facts:** row counts, survey responses, reported market-context values, seasonality indices/temperatures, and competitor list/shelf prices and promotion flags.
