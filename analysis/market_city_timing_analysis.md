@@ -4,6 +4,10 @@
 **Student ID:** E260249  
 **Decision covered:** first German city/region and approximate launch timing
 
+> **Executive decision:** Launch in **Berlin in May 2027**, test **Hamburg** as the challenger market, and consider **Munich** for the next expansion wave.
+
+This recommendation prioritizes Berlin's directional scale, uses Hamburg to validate customer pull, and keeps Munich as a scale-and-growth option after German pilot evidence is available.
+
 ## 1. Business summary
 
 LUMEN should **launch first in Berlin in May 2027**, using late April for pilot distribution and awareness. **Hamburg is the challenger test**, and **Munich is the next expansion option**. Berlin is the best scale-adjusted first test: the market file assigns it the largest named-city share (18%), the German survey reports high purchase intent (7.40/10; 44.4% rated intent at least 8/10), and its assumed regional growth rate is 9%. May begins the sustained demand upswing (seasonality index 118; 15°C) before the July peak (138; 19°C), while the observed competitor promotion calendar shows no May promotions.
@@ -27,7 +31,11 @@ See the standalone [city comparison](city_comparison.md) for the full side-by-si
 The charts below are embedded in the main analysis so the market and city evidence is visible in one place.
 
 ![Illustrative 2026 city opportunity](city_opportunity.svg)
+
+*Source: `data/market_context.csv`; city euro values are analyst calculations.*
 ![Mean LUMEN purchase intent by city](city_intent.svg)
+
+*Source: `data/customer_survey.csv`; anonymized aggregate calculations by analyst.*
 
 ### Seasonality and weather
 
@@ -38,6 +46,8 @@ The charts below are embedded in the main analysis so the market and city eviden
 #### Visual launch-timing signal
 
 ![Monthly demand seasonality index](seasonality.svg)
+
+*Source: `data/seasonality_and_weather.csv`.*
 
 
 ### Competitor promotion patterns
@@ -77,6 +87,14 @@ This is a staged choice, not a recommendation to launch in all cities at once. B
 - Weather is Germany-wide average temperature, not city-level weather, and the data is observational. It supports timing logic but does not prove temperature causes demand.
 - Risks include Berlin's higher competition and launch cost, price/promotion pressure from PulsUp, and overestimating intent-to-repeat conversion. A May launch may also miss a retailer window or face an unobserved competitor event.
 
-## 5. Implications for the final LUMEN recommendation
+## 5. What this analysis does not decide
 
-The final case recommendation should frame Berlin/May as a **learning-oriented, scale-first entry**, not as proof that Berlin will outperform every city. It should preserve Hamburg as the next test because Hamburg leads on survey intent and frequency. The final recommendation should also state that any premium positioning and price decision needs a city-by-channel pilot: market size and timing support where/when to learn, but they do not by themselves establish willingness to pay or marketing payback.
+This role recommends **where and when to learn**. It does not determine LUMEN's final price, positioning, marketing budget, channel economics, or German profitability. Those decisions require the pricing, channel, cost, and marketing analyses to be combined with the pilot results.
+
+## 6. Implications for the final LUMEN recommendation
+
+The final case recommendation should frame Berlin/May as a **learning-oriented, scale-first entry**, not as proof that Berlin will outperform every city. Berlin is selected to test scale; Hamburg is selected to reduce the risk of relying on scale alone because it leads on survey-reported intent; Munich should be considered for expansion only after Berlin and Hamburg are compared on realized performance. The final recommendation should also state that any premium positioning and price decision needs a city-by-channel pilot: market size and timing support where/when to learn, but they do not by themselves establish willingness to pay or marketing payback.
+
+### Expansion decision after the pilot
+
+Evaluate Munich as the next wave only after comparing Berlin and Hamburg on realized German evidence: rate of sale, repeat purchase, DTC conversion, acquisition cost, net contribution after promotions, and operational feasibility. This keeps the expansion decision evidence-based without inventing pass/fail thresholds that are not supplied in the data room.
