@@ -27,6 +27,7 @@ See the standalone [city comparison](city_comparison.md) for the full side-by-si
 The charts below are embedded in the main analysis so the market and city evidence is visible in one place.
 
 ```mermaid
+%%{init: {'themeVariables': {'xyChart': {'plotColorPalette': ['#1f4e79']}}}}%%
 xychart-beta
     title "Illustrative 2026 city opportunity (€m)"
     x-axis [Berlin, Munich, Hamburg, Cologne, Frankfurt]
@@ -35,6 +36,7 @@ xychart-beta
 ```
 
 ```mermaid
+%%{init: {'themeVariables': {'xyChart': {'plotColorPalette': ['#c55a11']}}}}%%
 xychart-beta
     title "Mean LUMEN purchase intent by city (/10)"
     x-axis [Berlin, Munich, Hamburg, Cologne, Frankfurt]
@@ -51,6 +53,7 @@ xychart-beta
 #### Visual launch-timing signal
 
 ```mermaid
+%%{init: {'themeVariables': {'xyChart': {'plotColorPalette': ['#1f4e79']}}}}%%
 xychart-beta
     title "Monthly demand seasonality index"
     x-axis [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]

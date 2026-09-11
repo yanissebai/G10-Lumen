@@ -7,6 +7,7 @@ Directional comparison for the first-city decision. All figures come from `data/
 The bars below show the calculated 2026 Energy / focus opportunity. Berlin is the largest named-city opportunity in the supplied market split.
 
 ```mermaid
+%%{init: {'themeVariables': {'xyChart': {'plotColorPalette': ['#1f4e79']}}}}%%
 xychart-beta
     title "Illustrative 2026 city opportunity (€m)"
     x-axis [Berlin, Munich, Hamburg, Cologne, Frankfurt]
@@ -17,6 +18,7 @@ xychart-beta
 ## 2. Customer evidence
 
 ```mermaid
+%%{init: {'themeVariables': {'xyChart': {'plotColorPalette': ['#c55a11']}}}}%%
 xychart-beta
     title "Mean LUMEN purchase intent (survey, /10)"
     x-axis [Berlin, Munich, Hamburg, Cologne, Frankfurt]
