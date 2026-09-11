@@ -51,3 +51,11 @@ ok , mtn crée un outil pour pouvoir décider le prix
 ## Result update
 
 Added `price_simulator.html` and linked it from `README.md`; corrected the displayed €2.59 channel values against the source CSV.
+
+## Entry 4 — 2026-09-11
+
+do all that
+
+## Result update
+
+Expanded the simulator into a price decision cockpit with blended mix, volume, budget, sensitivity, marketing benchmarks, city context, competitor references, and an illustrative decision score.

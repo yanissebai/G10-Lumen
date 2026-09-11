@@ -48,4 +48,4 @@ These questions aren't here to slow you down — they're part of what's being ev
 
 The integration analysis starts with a transparent price simulator rather than a single unexplainable recommendation. It compares the three candidate prices from `data/price_test_results.csv` by launch channel, showing estimated acceptance, unit contribution, contribution margin, and contribution for 1,000 units; customer identity fields are not used.
 
-Open `price_simulator.html` in a browser to test the scenarios.
+Open `price_simulator.html` in a browser to test the scenarios. The cockpit also supports blended channel mix, launch volume and budget inputs, acceptance sensitivity, marketing CAC/LTV benchmarks, city context, and competitor price references; its decision score is an explicitly illustrative 40% acceptance / 60% contribution weighting.
