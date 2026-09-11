@@ -1,0 +1,37 @@
+# Prompt log — student e254949
+
+## Entry 1 — 2026-09-11
+
+You are working on the LUMEN Germany market-entry case.
+Repository:
+[https://github.com/yanissebai/lumen-pricing-case-template](https://github.com/yanissebai/lumen-pricing-case-template)
+My ESCP student ID is: e254949 My assigned role is: Number 1 Team Lead / Integration
+First, read:
+•⁠  ⁠README.md
+•⁠  ⁠LUMEN\_Case\_Brief.md
+•⁠  ⁠data/README\_data.md
+•⁠  ⁠AGENTS.md, if present
+Follow the repository instructions. Work only in my fork or assigned branch, not directly in the template repository. Do not ask me to design the analysis or decide what to do: execute the task below, inspect the relevant CSV files, and produce a complete, evidence-based deliverable.
+Global rules:
+•⁠  ⁠Do not use or expose names or email addresses from customer\_survey.csv.
+•⁠  ⁠Do not invent data, results, or assumptions.
+•⁠  ⁠Clearly distinguish observed facts, calculated metrics, assumptions, and recommendations.
+•⁠  ⁠Check data quality before relying on any result.
+•⁠  ⁠Keep the output understandable to a non-technical business audience.
+•⁠  ⁠Do not duplicate analyses belonging to other roles.
+•⁠  ⁠Create only the files needed for this task.
+•⁠  ⁠At the end, update the relevant documentation or analysis file, run appropriate checks, commit the work, and push it to my fork/branch if authentication allows it.
+My assigned task is:
+
+Required final output:
+1.⁠ ⁠A concise business summary.
+2.⁠ ⁠The main findings, with exact figures and source filenames.
+3.⁠ ⁠A clear recommendation.
+4.⁠ ⁠Key assumptions, limitations, and risks.
+5.⁠ ⁠The implications for the final LUMEN recommendation.
+6.⁠ ⁠A list of files created or modified.
+7.⁠ ⁠The commit hash and, if successful, the pushed branch name and GitHub URL.
+
+## Result
+
+Created the integration analysis and prompt log on `team-lead-integration`; validation, commit, and push are pending.
