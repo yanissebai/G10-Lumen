@@ -46,6 +46,30 @@ okay, so can you now push what has been done in this chat to the branch Santiago
 
 Result: Attempted to push the complete Santiago branch.
 
+### Entry 10 — 2026-09-11
+
+what does this failed attempt mean?
+
+Result: Explained that the local commit exists but GitHub did not receive it because authentication failed.
+
+### Entry 11 — 2026-09-11
+
+download github cli
+
+Result: Began installing the GitHub CLI.
+
+### Entry 12 — 2026-09-11
+
+install
+
+Result: Retried GitHub CLI installation using a user-space approach.
+
+### Entry 13 — 2026-09-11
+
+do it
+
+Result: Made a direct official-release installation attempt for GitHub CLI.
+
 ### Entry 5 — 2026-09-11
 
 Follow the repository instructions. Work only in my fork or assigned branch, not directly in the template repository. Do not ask me to design the analysis or decide what to do: execute the task below, inspect the relevant CSV files, and produce a complete, evidence-based deliverable.
