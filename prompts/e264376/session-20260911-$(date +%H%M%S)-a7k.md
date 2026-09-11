@@ -70,6 +70,24 @@ do it
 
 Result: Made a direct official-release installation attempt for GitHub CLI.
 
+### Entry 14 — 2026-09-11
+
+ok then GitHub CLI
+
+Result: Started GitHub CLI authentication.
+
+### Entry 15 — 2026-09-11
+
+do i have to create a GitHub account?
+
+Result: Explained that GitHub authentication requires an account with appropriate repository access.
+
+### Entry 16 — 2026-09-11
+
+okay please check if that made it work
+
+Result: Checked GitHub CLI authentication and branch push readiness.
+
 ### Entry 5 — 2026-09-11
 
 Follow the repository instructions. Work only in my fork or assigned branch, not directly in the template repository. Do not ask me to design the analysis or decide what to do: execute the task below, inspect the relevant CSV files, and produce a complete, evidence-based deliverable.
