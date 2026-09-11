@@ -8,27 +8,9 @@ The bars below show the calculated 2026 Energy / focus opportunity. Berlin is th
 
 ![Illustrative 2026 city opportunity](city_opportunity.svg)
 
-```mermaid
-%%{init: {'themeVariables': {'xyChart': {'plotColorPalette': ['#1f4e79']}}}}%%
-xychart-beta
-    title "Illustrative 2026 city opportunity (€m)"
-    x-axis [Berlin, Munich, Hamburg, Cologne, Frankfurt]
-    y-axis "€m" 0 --> 500
-    bar [458.6, 382.2, 254.8, 229.3, 203.8]
-```
-
 ![Mean LUMEN purchase intent by city](city_intent.svg)
 
 ## 2. Customer evidence
-
-```mermaid
-%%{init: {'themeVariables': {'xyChart': {'plotColorPalette': ['#c55a11']}}}}%%
-xychart-beta
-    title "Mean LUMEN purchase intent (survey, /10)"
-    x-axis [Berlin, Munich, Hamburg, Cologne, Frankfurt]
-    y-axis "Intent" 0 --> 10
-    bar [7.40, 7.30, 7.52, 7.04, 7.18]
-```
 
 **High-intent respondents (intent ≥8/10):** Berlin 44.4% (n=81), Munich 35.1% (n=57), Hamburg 45.8% (n=48), Cologne 44.4% (n=45), and Frankfurt 31.2% (n=32).
 
