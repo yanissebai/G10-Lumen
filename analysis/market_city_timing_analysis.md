@@ -20,6 +20,8 @@ Hamburg is the best challenger/second test: it has the highest observed city-lev
 - `data/customer_survey.csv` contains **420** German respondents. After excluding `respondent_id`, `first_name`, `last_name`, and `email` from analysis, city results were: **Hamburg n=48, intent 7.52, high intent 45.8%, spend €20.27/month, frequency 6.32/month; Berlin n=81, 7.40, 44.4%, €19.98, 6.16; Munich n=57, 7.30, 35.1%, €19.89, 6.38; Frankfurt n=32, 7.18, 31.2%, €20.93, 5.95; Cologne n=45, 7.04, 44.4%, €18.10, 6.03**. “High intent” is a calculated metric defined as intent ≥8/10.
 - The survey's preferred channel mix is **Retail/Grocery 46.4% (195/420)**, **DTC Online 28.3% (119/420)**, and **Gym & Office 25.2% (106/420)**. This supports a retail-led pilot with DTC measurement, but channel execution is outside this role's primary scope.
 
+See the standalone [city comparison](city_comparison.md) for the full side-by-side table and decision interpretation.
+
 ### Seasonality and weather
 
 - `data/seasonality_and_weather.csv` shows demand below the annual baseline in winter: **January 78 at 2°C**, **February 80 at 3°C**, and **March 88 at 7°C**.
@@ -52,4 +54,3 @@ Hamburg is the best challenger/second test: it has the highest observed city-lev
 ## 5. Implications for the final LUMEN recommendation
 
 The final case recommendation should frame Berlin/May as a **learning-oriented, scale-first entry**, not as proof that Berlin will outperform every city. It should preserve Hamburg as the next test because Hamburg leads on survey intent and frequency. The final recommendation should also state that any premium positioning and price decision needs a city-by-channel pilot: market size and timing support where/when to learn, but they do not by themselves establish willingness to pay or marketing payback.
-
