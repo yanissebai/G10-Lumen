@@ -35,3 +35,19 @@ Required final output:
 ## Result
 
 Created the integration analysis and prompt log on `team-lead-integration`; validation, commit, and push are pending.
+
+## Entry 2 — 2026-09-11
+
+ok , mtn crée un outil pour pouvoir décider le prix
+
+## Result update
+
+Added a browser-based price decision simulator using the candidate prices and channel results from `data/price_test_results.csv`.
+
+## Entry 3 — 2026-09-11
+
+ok , mtn crée un outil pour pouvoir décider le prix
+
+## Result update
+
+Added `price_simulator.html` and linked it from `README.md`; corrected the displayed €2.59 channel values against the source CSV.

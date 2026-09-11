@@ -46,4 +46,6 @@ These questions aren't here to slow you down — they're part of what's being ev
 
 ## Our Approach
 
-*[To be filled in by the team at the end.]*
+The integration analysis starts with a transparent price simulator rather than a single unexplainable recommendation. It compares the three candidate prices from `data/price_test_results.csv` by launch channel, showing estimated acceptance, unit contribution, contribution margin, and contribution for 1,000 units; customer identity fields are not used.
+
+Open `price_simulator.html` in a browser to test the scenarios.

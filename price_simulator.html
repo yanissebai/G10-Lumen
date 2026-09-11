@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LUMEN — Simulateur de prix</title>
+  <style>
+    :root { --ink:#17202a; --muted:#607080; --line:#dce4ea; --accent:#136f63; --soft:#eef7f4; --warn:#fff4dc; }
+    * { box-sizing:border-box; } body { margin:0; font-family:Inter,ui-sans-serif,system-ui,-apple-system,sans-serif; color:var(--ink); background:#f7f9fa; }
+    main { max-width:1050px; margin:0 auto; padding:42px 22px 56px; } .eyebrow { color:var(--accent); font-weight:750; letter-spacing:.08em; text-transform:uppercase; font-size:.78rem; }
+    h1 { font-size:clamp(2rem,4vw,3.5rem); margin:8px 0 10px; letter-spacing:-.04em; } h2 { margin:0 0 14px; font-size:1.2rem; }
+    .intro { color:var(--muted); max-width:760px; line-height:1.6; margin-bottom:28px; } .panel { background:white; border:1px solid var(--line); border-radius:18px; padding:22px; margin-top:18px; box-shadow:0 8px 24px #17202a0a; }
+    .controls { display:grid; grid-template-columns:1fr 1fr; gap:20px; } label { display:block; font-weight:700; margin-bottom:8px; } select, input { width:100%; padding:12px; border:1px solid #b9c7cf; border-radius:10px; font:inherit; background:white; }
+    .metrics { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-top:18px; } .metric { background:var(--soft); border-radius:12px; padding:15px; } .metric small { display:block; color:var(--muted); margin-bottom:7px; } .metric strong { font-size:1.45rem; }
+    .decision { border-left:5px solid var(--accent); background:var(--soft); padding:16px 18px; border-radius:10px; margin-top:18px; line-height:1.55; } .warning { background:var(--warn); border-left-color:#d89416; }
+    table { width:100%; border-collapse:collapse; } th,td { text-align:left; padding:12px 10px; border-bottom:1px solid var(--line); } th { color:var(--muted); font-size:.82rem; } tr.selected { background:var(--soft); font-weight:700; }
+    .note { color:var(--muted); font-size:.9rem; line-height:1.5; margin-top:14px; } .source { font-size:.8rem; color:var(--muted); margin-top:25px; }
+    @media (max-width:720px) { .controls,.metrics { grid-template-columns:1fr 1fr; } .metrics .metric:last-child { grid-column:span 2; } table { font-size:.88rem; } }
+  </style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">LUMEN · Germany market entry</div>
+  <h1>Simulateur de prix</h1>
+  <p class="intro">Comparez les trois prix candidats sur un canal donné. L’outil montre le compromis entre acceptance estimée et contribution par unité ; il ne transforme pas les résultats d’enquête en prévision de ventes.</p>
+  <section class="panel">
+    <h2>Choisissez un scénario</h2>
+    <div class="controls">
+      <div><label for="price">Prix public par canette</label><select id="price"><option value="1.79">€1,79</option><option value="2.19" selected>€2,19</option><option value="2.59">€2,59</option></select></div>
+      <div><label for="channel">Canal de lancement</label><select id="channel"><option>DTC Online</option><option>Retail/Grocery</option><option>Gym &amp; Office</option></select></div>
+    </div>
+    <div class="metrics"><div class="metric"><small>Acceptance estimée</small><strong id="acceptance">—</strong></div><div class="metric"><small>Contribution / unité</small><strong id="contribution">—</strong></div><div class="metric"><small>Marge de contribution</small><strong id="margin">—</strong></div><div class="metric"><small>Contribution pour 1 000 unités</small><strong id="total">—</strong></div></div>
+    <div id="decision" class="decision"></div>
+  </section>
+  <section class="panel"><h2>Vue d’ensemble des prix</h2><table><thead><tr><th>Prix</th><th>Acceptance</th><th>Contribution / unité</th><th>Marge</th><th>Lecture</th></tr></thead><tbody id="comparison"></tbody></table><p class="note">Pour comparer des canaux différents, gardez le même prix puis changez le canal ci-dessus. Les résultats sont ceux du test de prix, rapportés par canal.</p></section>
+  <p class="source">Source : <code>data/price_test_results.csv</code>. Aucun nom ni email de <code>customer_survey.csv</code> n’est utilisé.</p>
+</main>
+<script>
+const results = {
+  '1.79': {'DTC Online':[61.7,0.77,55.3], 'Retail/Grocery':[61.7,0.40,39.2], 'Gym & Office':[61.7,0.81,56.7]},
+  '2.19': {'DTC Online':[51.7,1.16,65.1], 'Retail/Grocery':[51.7,0.63,50.3], 'Gym & Office':[51.7,1.13,64.6]},
+  '2.59': {'DTC Online':[26.7,1.54,71.4], 'Retail/Grocery':[26.7,0.86,58.0], 'Gym & Office':[26.7,1.45,70.1]}
+};
+const eur = n => new Intl.NumberFormat('fr-FR',{style:'currency',currency:'EUR'}).format(n);
+const price = document.querySelector('#price'), channel = document.querySelector('#channel');
+function render(){ const [a,c,m] = results[price.value][channel.value]; document.querySelector('#acceptance').textContent=`${a.toFixed(1)} %`; document.querySelector('#contribution').textContent=eur(c); document.querySelector('#margin').textContent=`${m.toFixed(1)} %`; document.querySelector('#total').textContent=eur(c*1000);
+  const d=document.querySelector('#decision'); d.className='decision'; if(price.value==='2.19') d.innerHTML='<strong>Scénario équilibré.</strong> €2,19 est le compromis recommandé : acceptance supérieure à €2,59 et contribution nettement supérieure à €1,79. Validez-le d’abord en pilote.'; else if(price.value==='1.79') d.innerHTML='<strong>Scénario volume.</strong> L’acceptance est la meilleure, mais la contribution est la plus faible. À utiliser si la priorité est l’adoption, avec un contrôle strict du payback.'; else { d.className='decision warning'; d.innerHTML='<strong>Scénario premium.</strong> La marge unitaire est la meilleure, mais l’acceptance estimée tombe à 26,7 %. Ce choix exige une validation de conversion avant un déploiement large.'; }
+  document.querySelector('#comparison').innerHTML=Object.entries(results).map(([p,v])=>{const [x,y,z]=v[channel.value]; const read=p==='2.19'?'équilibre':p==='1.79'?'volume':'premium'; return `<tr class="${p===price.value?'selected':''}"><td>${eur(Number(p))}</td><td>${x.toFixed(1)} %</td><td>${eur(y)}</td><td>${z.toFixed(1)} %</td><td>${read}</td></tr>`}).join(''); }
+price.addEventListener('change',render); channel.addEventListener('change',render); render();
+</script>
+</body></html>
