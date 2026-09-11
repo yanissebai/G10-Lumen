@@ -57,14 +57,6 @@ xychart-beta
 
 ![Monthly demand seasonality index](seasonality.svg)
 
-```mermaid
-%%{init: {'themeVariables': {'xyChart': {'plotColorPalette': ['#1f4e79']}}}}%%
-xychart-beta
-    title "Monthly demand seasonality index"
-    x-axis [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
-    y-axis "Seasonality index" 0 --> 150
-    line [78, 80, 88, 98, 118, 132, 138, 128, 104, 90, 82, 84]
-```
 
 ### Competitor promotion patterns
 
