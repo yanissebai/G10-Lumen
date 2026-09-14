@@ -91,3 +91,11 @@ résout le probleme de github innacessible
 ## Result update
 
 GitHub connectivity was restored by allowing the required network access; latest remote commits were fetched for safe branch synchronization.
+
+## Entry 9 — 2026-09-14
+
+je veux qu'on ne vois plus l'ancienne version et que la nouvelle devienne l'unique version visible sur vercel
+
+## Result update
+
+Changed the Vercel root entry point to redirect visitors to the current price decision cockpit, removing the old version from the visible site path.
