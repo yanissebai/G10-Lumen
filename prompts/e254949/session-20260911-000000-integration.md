@@ -76,6 +76,14 @@ supprime celles qui sont secondaires, et trouve une autre manière de présenter
 
 Simplified the cockpit to primary pricing decisions and replaced sliders with scenario cards and channel-mix preset buttons.
 
+## Entry 8 — 2026-09-14
+
+fait un selecteur vertical c'est bien et ok pour les couelurs, vas-y code
+
+## Result update
+
+Implemented the approved blue/grey/black/white palette and changed price selection to a vertical decision list.
+
 ## Entry 6 — 2026-09-14
 
 résout le probleme de github innacessible
