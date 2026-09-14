@@ -46,4 +46,4 @@ These questions aren't here to slow you down — they're part of what's being ev
 
 ## Our Approach
 
-*[To be filled in by the team at the end.]*
+For the Germany pricing workstream, we compared like-for-like competitor single-can prices, twelve months of competitor price and promotion history, 300 customer price-threshold responses, and the three supplied price tests. The analysis recommends a €2.19 launch price because it preserves majority estimated acceptance while producing the strongest acceptance-weighted contribution in every tested channel. This deliberately sacrifices some reach versus €1.79 and some per-buyer margin versus €2.59. Full evidence, calculations, assumptions, and risks are documented in [`analysis/pricing_analysis.md`](analysis/pricing_analysis.md).
