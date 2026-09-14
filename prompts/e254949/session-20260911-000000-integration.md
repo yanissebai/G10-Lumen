@@ -59,3 +59,19 @@ do all that
 ## Result update
 
 Expanded the simulator into a price decision cockpit with blended mix, volume, budget, sensitivity, marketing benchmarks, city context, competitor references, and an illustrative decision score.
+
+## Entry 5 — 2026-09-14
+
+ce qu'on a fait ressemble trop à un projet classique, je veux qu'on se démarique pour donner une spécificité unique à notre site, tant sur le contenu que le design
+
+## Result update
+
+Refocused the site as a distinctive LUMEN Germany Launch Room, emphasizing the CMO/CFO trade-off, evidence-backed bets, and explicit non-optimizations through a new editorial visual system.
+
+## Entry 6 — 2026-09-14
+
+résout le probleme de github innacessible
+
+## Result update
+
+GitHub connectivity was restored by allowing the required network access; latest remote commits were fetched for safe branch synchronization.
