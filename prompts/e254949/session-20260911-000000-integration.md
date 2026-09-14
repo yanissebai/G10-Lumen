@@ -68,6 +68,14 @@ ce qu'on a fait ressemble trop à un projet classique, je veux qu'on se démariq
 
 Refocused the site as a distinctive LUMEN Germany Launch Room, emphasizing the CMO/CFO trade-off, evidence-backed bets, and explicit non-optimizations through a new editorial visual system.
 
+## Entry 7 — 2026-09-14
+
+supprime celles qui sont secondaires, et trouve une autre manière de présenter que des barres à manipuler car ça fait trop "IA"
+
+## Result update
+
+Simplified the cockpit to primary pricing decisions and replaced sliders with scenario cards and channel-mix preset buttons.
+
 ## Entry 6 — 2026-09-14
 
 résout le probleme de github innacessible
