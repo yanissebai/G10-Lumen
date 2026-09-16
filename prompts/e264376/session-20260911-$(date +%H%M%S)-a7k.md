@@ -387,6 +387,24 @@ not everyone will understand what the terms: "CAC" and "LTV" mean so please crea
 
 Result: Identified the four KPI cards from the screenshot and added hover explanations for each.
 
+### Entry 58 — 2026-09-16
+
+thank you
+
+Result: Confirmed the updated dashboard is on the Santiago branch.
+
+### Entry 59 — 2026-09-16
+
+so for the following table:
+
+Result: Requested the table or the specific modification because the request was incomplete.
+
+### Entry 60 — 2026-09-16
+
+please help me with the data; the numbers and the titles from the top are a bit disaligned and makes it look messy, specially "Conv. / engagement" make the separation between them more visible
+
+Result: Improved channel-table alignment and visual separation without changing any data.
+
 ### Entry 5 — 2026-09-11
 
 Follow the repository instructions. Work only in my fork or assigned branch, not directly in the template repository. Do not ask me to design the analysis or decide what to do: execute the task below, inspect the relevant CSV files, and produce a complete, evidence-based deliverable.
