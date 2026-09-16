@@ -12,6 +12,10 @@ Once you've forked it, add your teammates as collaborators (Settings → Collabo
 
 The full brief is in `LUMEN_Case_Brief.md` (and a formatted version in `LUMEN_Case_Brief.pdf`). The data is in the `data/` folder, documented in `data/README_data.md`.
 
+## Data quality gate
+
+Before Codex or an analyst uses any CSV, run `python3 scripts/audit_data_quality.py` and read [`DATA_QUALITY_REPORT.md`](DATA_QUALITY_REPORT.md). The rules in [`data/AGENTS.md`](data/AGENTS.md) apply automatically to Codex work inside `data/`; the human-readable workflow is in [`DATA_WORKFLOW.md`](DATA_WORKFLOW.md). Names and email values must never be used or reproduced, and files not marked **Direct use: Yes** require the documented cleaning or privacy review first.
+
 One-sentence summary: LUMEN, a functional beverage brand, has to decide **price, positioning, and launch channel(s)** to enter the German market — with no real German sales data (LUMEN isn't there yet), and a real trade-off between the CMO (premium positioning) and the CFO (fast return on investment).
 
 ## Rule #1 — Prompt Logging Is Automatic
