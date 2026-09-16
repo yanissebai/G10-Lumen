@@ -361,6 +361,32 @@ perfect, please create it
 
 Result: Began building the Marketing ROI decision dashboard on the Santiago branch.
 
+### Entry 54 — 2026-09-16
+
+okay, i see the lines of code but how can i see the website>
+
+Result: Explained that GitHub displays HTML source and provided local browser viewing instructions.
+
+### Entry 55 — 2026-09-16
+
+if i wish to add modifications to the website i just tell you and you execute them?
+
+Result: Confirmed the user can describe website modifications in plain language for implementation on Santiago.
+
+### Entry 56 — 2026-09-16
+
+not everyone will understand what the terms: "CAC" and "LTV" mean so please create a subtle pop-up that shows whenever the cursor hovers on top of the term; specifically when the cursor hovers above an of these 4 segments:
+
+Result: Requested the missing list of four segments before implementing the hover explanations.
+
+### Entry 57 — 2026-09-16
+
+[Image attached: Screenshot 2026-09-16 at 15.18.36.png]
+
+not everyone will understand what the terms: "CAC" and "LTV" mean so please create a subtle pop-up that shows whenever the cursor hovers on top of the term; specifically when the cursor hovers above an of these 4 segments:
+
+Result: Identified the four KPI cards from the screenshot and added hover explanations for each.
+
 ### Entry 5 — 2026-09-11
 
 Follow the repository instructions. Work only in my fork or assigned branch, not directly in the template repository. Do not ask me to design the analysis or decide what to do: execute the task below, inspect the relevant CSV files, and produce a complete, evidence-based deliverable.
