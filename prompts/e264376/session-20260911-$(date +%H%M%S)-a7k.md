@@ -396,6 +396,69 @@ santi@MacBookPro repo %
 
 Result: Confirmed the website copy is ready and identified the exact files to stage for publishing.
 
+### Entry 74 — 2026-09-16
+
+i see this: no changes added to commit (use "git add" and/or "git commit -a")
+santi@MacBookPro repo % git add docs/index.html 'prompts/e264376/session-20260911-$(date +%H%M%S)-a7k.md'
+santi@MacBookPro repo % git commit -m "Publish Santiago website"
+[Santiago 4349408] Publish Santiago website
+ 2 files changed, 130 insertions(+)
+ create mode 100644 docs/index.html
+santi@MacBookPro repo % git push origin Santiago
+To https://github.com/yanissebai/G10-Lumen.git
+   6bb3e88..4349408 Santiago -> Santiago
+santi@MacBookPro repo %
+
+Result: Confirmed the website was committed and pushed successfully to Santiago.
+
+### Entry 75 — 2026-09-16
+
+i'm on the Santiago branch but cannot find "Folder: /docs"
+
+Result: Clarified that the /docs setting appears under repository Settings → Pages after selecting Deploy from a branch.
+
+### Entry 76 — 2026-09-16
+
+which is the repository page?
+
+Result: Identified the repository homepage and distinguished it from the individual file page.
+
+### Entry 77 — 2026-09-16
+
+this is what i see, i don't see the settings you're talking about
+
+Result: Identified that the user is viewing the shared template repository without administrator access, explaining why Settings → Pages is unavailable.
+
+### Entry 78 — 2026-09-16
+
+understood, the admin will enable it soon; can you alert me when it is enabled?
+
+Result: Set up a quiet monitor to notify the user when GitHub Pages status changes.
+
+### Entry 79 — 2026-09-16
+
+thank you
+
+Result: Acknowledged the user's thanks and corrected the pending monitor setup.
+
+### Entry 80 — 2026-09-16
+
+can you check if it was done already?
+
+Result: Checked the current GitHub Pages URL and repository deployment status.
+
+### Entry 81 — 2026-09-17
+
+pull
+
+Result: Pulled the latest changes from the remote Santiago branch.
+
+### Entry 82 — 2026-09-17
+
+push
+
+Result: Committed the latest session log and pushed the Santiago branch.
+
 ### Entry 47 — 2026-09-15
 
 hello, could you please remind me of my role?
