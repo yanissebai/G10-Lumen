@@ -76,6 +76,14 @@
       .decision h2 { margin: 0 0 8px; font-size: clamp(1.5rem, 3vw, 2.25rem); }
       .decision p { max-width: 720px; margin: 0; color: var(--muted); }
       .price { color: var(--accent); font-size: clamp(3rem, 7vw, 5.4rem); font-weight: 900; letter-spacing: -.06em; }
+      .timing { margin: 0 0 72px; padding: 28px; border: 1px solid var(--line); border-radius: 18px; background: var(--surface); }
+      .timing h2 { margin: 0 0 8px; font-size: clamp(1.5rem, 3vw, 2.15rem); }
+      .timing > p { max-width: 780px; margin: 0 0 24px; color: var(--muted); }
+      .timing-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+      .timing-item { padding: 18px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface-2); }
+      .timing-item strong { display: block; margin-bottom: 5px; color: var(--accent); font-size: 1.15rem; }
+      .timing-item span { color: var(--muted); font-size: .92rem; }
+      .timing-link { display: inline-block; margin-top: 22px; color: var(--accent); font-weight: 800; }
       .section-head { margin-bottom: 24px; }
       .section-head h2 { margin: 0 0 6px; font-size: clamp(1.65rem, 3vw, 2.35rem); }
       .section-head p { margin: 0; color: var(--muted); }
@@ -142,6 +150,17 @@
         <div class="price" aria-label="Recommended price 2 euros 19">€2.19</div>
       </section>
 
+      <section class="timing" aria-labelledby="timing-title">
+        <h2 id="timing-title">Where and when to start</h2>
+        <p>The market analysis supports a staged urban rollout: make Berlin the first launch market, use Hamburg as the challenger test, and keep Munich as the next expansion option.</p>
+        <div class="timing-grid">
+          <div class="timing-item"><strong>Berlin</strong><span>Priority launch market · May 2027</span></div>
+          <div class="timing-item"><strong>Hamburg</strong><span>Challenger test for demand and intent</span></div>
+          <div class="timing-item"><strong>Munich</strong><span>Next expansion option after validation</span></div>
+        </div>
+        <a class="timing-link" href="market-city-timing.html">Explore the market, city and timing evidence →</a>
+      </section>
+
       <section aria-labelledby="work-title">
         <div class="section-head">
           <h2 id="work-title">Role pages</h2>
@@ -165,6 +184,12 @@
             <h3>Interactive launch room</h3>
             <p>Change price, channel mix, pilot volume, and budget to see how the team's opening bet behaves under different scenarios.</p>
             <span class="open">Open the simulator →</span>
+          </a>
+          <a class="card" href="market-city-timing.html">
+            <span class="role">Role 2 · Market analyst</span>
+            <h3>Market, city &amp; timing</h3>
+            <p>Compare the German city opportunity, demand signals, seasonality, weather context, and the tests required before scaling.</p>
+            <span class="open">Open the market evidence →</span>
           </a>
         </div>
       </section>

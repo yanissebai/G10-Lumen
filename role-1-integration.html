@@ -27,6 +27,13 @@
       .card { padding:24px; border:1px solid var(--line); border-radius:16px; background:var(--card); }
       .card h2 { margin:0 0 10px; color:var(--blue); font-size:1.15rem; }
       .card p { margin:0; color:var(--muted); }
+      .launch-plan { margin:16px 0 32px; padding:24px; border:1px solid var(--line); border-radius:16px; background:linear-gradient(135deg,var(--card),#17243a); }
+      .launch-plan h2 { margin:0 0 8px; }
+      .launch-plan p { margin:0 0 18px; color:var(--muted); }
+      .launch-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+      .launch-step { padding:16px; border:1px solid var(--line); border-radius:12px; }
+      .launch-step strong { display:block; color:var(--accent); }
+      .launch-step span { color:var(--muted); font-size:.9rem; }
       .source { margin-top:48px; padding-top:22px; border-top:1px solid var(--line); color:var(--muted); font-size:.88rem; }
       @media(max-width:680px){ header{align-items:flex-start;flex-direction:column}.grid{grid-template-columns:1fr}main{padding-top:44px} }
     </style>
@@ -44,6 +51,17 @@
       <section class="recommendation" aria-labelledby="recommendation-title">
         <h2 id="recommendation-title">Recommended opening move</h2>
         <p>Test <strong>€2.19 per can</strong>, lead with <strong>Gym &amp; Office and DTC Online</strong>, focus initial validation on high-intent urban wellness and fitness audiences, and add Retail/Grocery selectively after validating repeat purchase and contribution.</p>
+      </section>
+
+      <section class="launch-plan" aria-labelledby="launch-title">
+        <h2 id="launch-title">Recommended rollout</h2>
+        <p>Use a staged city plan so the first launch produces evidence before the team commits to wider German distribution.</p>
+        <div class="launch-grid">
+          <div class="launch-step"><strong>Berlin · May 2027</strong><span>First launch market</span></div>
+          <div class="launch-step"><strong>Hamburg</strong><span>Challenger test</span></div>
+          <div class="launch-step"><strong>Munich</strong><span>Next expansion option</span></div>
+        </div>
+        <p style="margin:18px 0 0"><a href="market-city-timing.html">Read the full market, city and timing evidence →</a></p>
       </section>
 
       <div class="grid">
