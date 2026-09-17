@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 390" role="img" aria-labelledby="title desc">
+<title id="title">Mean LUMEN purchase intent by city</title><desc id="desc">Hamburg 7.52, Berlin 7.40, Munich 7.30, Frankfurt 7.18, Cologne 7.04 out of 10.</desc>
+<rect width="760" height="390" fill="#ffffff"/><text x="32" y="35" font-family="Arial" font-size="22" font-weight="bold" fill="#8a3200">Mean LUMEN purchase intent by city (/10)</text>
+<g font-family="Arial" font-size="15" fill="#17365d"><text x="32" y="88">Berlin</text><text x="32" y="142">Munich</text><text x="32" y="196">Hamburg</text><text x="32" y="250">Cologne</text><text x="32" y="304">Frankfurt</text></g>
+<g fill="#c55a11"><rect x="125" y="68" width="540" height="28"/><rect x="125" y="122" width="533" height="28"/><rect x="125" y="176" width="549" height="28"/><rect x="125" y="230" width="515" height="28"/><rect x="125" y="284" width="526" height="28"/></g>
+<g font-family="Arial" font-size="15" font-weight="bold" fill="#8a3200"><text x="674" y="89">7.40</text><text x="667" y="143">7.30</text><text x="683" y="197">7.52</text><text x="649" y="251">7.04</text><text x="660" y="305">7.18</text></g>
+<text x="125" y="350" font-family="Arial" font-size="13" fill="#555">German survey aggregate; high intent is defined as ≥8/10</text></svg>
