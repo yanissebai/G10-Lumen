@@ -12,6 +12,10 @@ Once you've forked it, add your teammates as collaborators (Settings → Collabo
 
 The full brief is in `LUMEN_Case_Brief.md` (and a formatted version in `LUMEN_Case_Brief.pdf`). The data is in the `data/` folder, documented in `data/README_data.md`.
 
+## Data quality gate
+
+Before Codex or an analyst uses any CSV, run `python3 scripts/audit_data_quality.py` and read [`DATA_QUALITY_REPORT.md`](DATA_QUALITY_REPORT.md). The rules in [`data/AGENTS.md`](data/AGENTS.md) apply automatically to Codex work inside `data/`; the human-readable workflow is in [`DATA_WORKFLOW.md`](DATA_WORKFLOW.md). Names and email values must never be used or reproduced, and files not marked **Direct use: Yes** require the documented cleaning or privacy review first.
+
 One-sentence summary: LUMEN, a functional beverage brand, has to decide **price, positioning, and launch channel(s)** to enter the German market — with no real German sales data (LUMEN isn't there yet), and a real trade-off between the CMO (premium positioning) and the CFO (fast return on investment).
 
 ## Rule #1 — Prompt Logging Is Automatic
@@ -46,6 +50,6 @@ These questions aren't here to slow you down — they're part of what's being ev
 
 ## Our Approach
 
-The integration analysis starts with a transparent price simulator rather than a single unexplainable recommendation. It compares the three candidate prices from `data/price_test_results.csv` by launch channel, showing estimated acceptance, unit contribution, contribution margin, and contribution for 1,000 units; customer identity fields are not used.
+The final website is a role-based decision hub: each contribution has its own page, while the landing page keeps the team's Germany recommendation coherent. The integration analysis starts with a transparent simulator rather than an unexplained answer, and the Role 3 pricing cockpit compares the €1.79, €2.19, and €2.59 candidates using competitor positioning, stated customer thresholds, acceptance, and channel contribution margins. It recommends testing €2.19 and clearly labels observed facts, calculations, planning assumptions, and risks because LUMEN has no observed German sales history.
 
-Open `price_simulator.html` in a browser to test the scenarios. The cockpit also supports blended channel mix, launch volume and budget inputs, acceptance sensitivity, marketing CAC/LTV benchmarks, city context, and competitor price references; its decision score is an explicitly illustrative 40% acceptance / 60% contribution weighting.
+Open `index.html` for the team hub, `role-3-pricing.html` for the full pricing evidence, and `price_simulator.html` for the interactive launch-room prototype. The supporting pricing calculations and sources are documented in [`analysis/pricing_analysis.md`](analysis/pricing_analysis.md). Customer identity fields were not used or exposed, and the website does not call an external API or publish raw survey data.
