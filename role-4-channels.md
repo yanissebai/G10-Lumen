@@ -18,6 +18,10 @@ At €2.19, Gym & Office contributes €0.50 more per unit than Retail/Grocery, 
 
 The channel recommendation should not be read as a volume forecast: the price-test results are reported by channel and do not provide a pre-built German channel mix (`data/price_test_results.csv`; `LUMEN_Case_Brief.md`). Retail/Grocery remains strategically important because it is the most-preferred purchase channel in the survey (`data/customer_survey.csv`), but broad rollout would expose LUMEN to lower contribution before German demand and repeat behavior are validated.
 
+## Preference-aware prioritisation
+
+Use contribution per unit as the launch-gate metric, while using channel preference to size the learning opportunity: DTC Online and Gym & Office are the first pilot channels because they retain €1.16 and €1.13 per can at €2.19; Retail/Grocery should be tested next because it reaches the largest stated preference share (46.4%) but retains only €0.63 per can. This makes the trade-off explicit rather than treating preference as a sales forecast (`data/customer_survey.csv`; `data/channel_economics.csv`).
+
 ## Proposed launch sequence
 
 1. **Pilot:** Gym & Office partnerships and DTC Online in selected urban wellness/fitness audiences; instrument channel-level orders, repeat rate, fulfilment-adjusted contribution, CAC, and payback.
